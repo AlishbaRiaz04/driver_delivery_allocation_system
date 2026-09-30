@@ -1,0 +1,57 @@
+{
+    "drivers": {
+        "D001": {
+            "name": "Ali",
+            "zone": "A",
+            "available": true,
+            "rating": 4.8
+        },
+        "D002": {
+            "name": "Ahmed",
+            "zone": "B",
+            "available": true,
+            "rating": 4.5
+        },
+        "D003": {
+            "name": "Usman",
+            "zone": "A",
+            "available": false,
+            "rating": 4.9
+        },
+        "D004": {
+            "name": "Hamza",
+            "zone": "A",
+            "available": true,
+            "rating": 4.2
+        }
+    },
+    "deliveries": [
+        {
+            "id": "TASK001",
+            "customer": "Customer A",
+            "zone": "A",
+            "distance": 4,
+            "order_amount": 120,
+            "priority": "normal",
+            "status": "pending"
+        },
+        {
+            "id": "TASK002",
+            "customer": "Customer B",
+            "zone": "B",
+            "distance": 12,
+            "order_amount": 80,
+            "priority": "urgent",
+            "status": "pending"
+        },
+        {
+            "id": "TASK003",
+            "customer": "Customer C",
+            "zone": "A",
+            "distance": 7,
+            "order_amount": 200,
+            "priority": "normal",
+            "status": "pending"
+        }
+    ]
+}
