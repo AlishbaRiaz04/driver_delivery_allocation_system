@@ -1,0 +1,43 @@
+TASK001: D001
+TASK002: D002
+TASK003: D004
+TASK001 -> picked_up: OK
+TASK001 -> delivered: OK
+TASK002 -> picked_up: OK
+TASK002 -> failed: OK
+============Driver Performance Report=============
+D001 {'name': 'Ali', 'zone': 'A', 'total_assigned_tasks': 1, 'delivered_tasks': 1, 'failed_tasks': 0, 'total_delivery_distance': 4, 'total_earnings': 6.2, 'completion_rate': 100.0}
+D002 {'name': 'Ahmed', 'zone': 'B', 'total_assigned_tasks': 1, 'delivered_tasks': 0, 'failed_tasks': 1, 'total_delivery_distance': 12, 'total_earnings': 0, 'completion_rate': 0.0}
+D003 {'name': 'Usman', 'zone': 'A', 'total_assigned_tasks': 0, 'delivered_tasks': 0, 'failed_tasks': 0, 'total_delivery_distance': 0, 'total_earnings': 0, 'completion_rate': 0}
+D004 {'name': 'Hamza', 'zone': 'A', 'total_assigned_tasks': 1, 'delivered_tasks': 0, 'failed_tasks': 0, 'total_delivery_distance': 7, 'total_earnings': 0, 'completion_rate': 0.0}
+--------------------------------------------------
+=================Business Report==================
+unique_delivery_zones: {'A', 'B'}
+tasks_per_zone: {'A': 2, 'B': 1}
+revenue_per_zone: {'A': 9}
+average_order_amount: 133.33333333333334
+average_distance: 7.666666666666667
+longest_delivery: TASK002
+highest_value_order: TASK003
+urgent_deliveries: 1
+tasks_not_assigned: []
+invalid_tasks: []
+available_drivers: ['D001', 'D002']
+busy_drivers: ['D003', 'D004']
+--------------------------------------------------
+================Delivery Dashboard================
+Total Tasks: 3
+Pending: 0
+Assigned: 1
+Picked Up: 0
+Delivered: 1
+Failed: 1
+Total Order Value: $400.00
+Total Delivery Charges: $9.00
+Total Driver Earnings: $6.20
+Top Driver: Ali (D001)
+Highest Revenue Zone: A
+Average Delivery Distance: 7.67
+Unassigned Tasks:
+	No unassigned tasks
+==================================================
